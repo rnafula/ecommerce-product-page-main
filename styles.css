@@ -1,0 +1,153 @@
+.parent{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-top{
+    display:flex;
+    justify-content: space-between;
+    
+}
+ul{
+    display:flex;
+    gap:5px;
+    padding-top: -2;
+    list-style-type: none;
+   
+}
+li a{
+    text-decoration: none;
+    color: gray;
+}
+.logo{
+    padding-top: 12px;
+}
+.nav-1{
+    display:flex;
+    gap:5px;
+}
+.avatar_image{
+    display:flex;
+    gap:10px;
+}
+.avatar {
+    background-color:none;
+}
+.avatar img{
+    width:35px;
+}
+.body{
+    display:flex;
+    gap:40px;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+    margin-top: 50px;
+
+}
+.big-image{
+    
+    overflow: hidden;
+}
+.big-image img{
+    width:100%;
+    border-radius: 8px;
+}
+.small-images{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin: 15px auto;
+
+
+
+}
+small{
+    width:20%;
+}
+.small img{
+    border-radius: 5px;
+    width:70%;
+
+} 
+.text{
+    width:30%;
+    gap:10px
+    margin: 15px auto;
+}
+.buttons{
+    display: flex;
+    gap:10px;
+    
+} 
+.strick{
+    text-decoration: line-through;
+    color:hsl(219, 9%, 45%);
+    margin-bottom: 20px;
+}
+
+.btn1{
+    width:30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:8px;
+    border:none;
+    background-color: rgb(200, 197, 197);
+    padding: 10px;
+    
+}
+.btn2{
+    width:60%; 
+    background-color:hsl(26, 100%, 55%);
+    border-radius:8px;
+    border: none;
+    padding: 10px;
+
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 2px;
+    color:hsl(219, 9%, 45%);
+
+}
+h3{
+    margin-bottom: 2px;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.paragraph{
+    margin-bottom: 2px;
+    color:hsl(219, 9%, 45%);
+    margin-bottom: 20px;
+
+}
+.dollars{
+    font-weight:700;
+    font-size: 25px;
+   
+
+}
+.black{
+    background-color: black;
+    color:white;
+    border-radius: 2px;
+    margin-left:20px;
+
+}
+
+
+/* text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap:10px
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+*/
