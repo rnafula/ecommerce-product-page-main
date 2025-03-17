@@ -55,11 +55,36 @@ li a{
     margin-top: 40px;
 
 }
-.big-image{
-    
+.big-image1{
+    display:none;
     overflow: hidden;
 }
-.big-image img{
+.big-image1 img{
+    width:100%;
+    border-radius: 8px;
+}
+.big-image2{
+    display:block;
+    overflow: hidden;
+}
+.big-image2 img{
+    width:100%;
+    border-radius: 8px;
+}
+.big-image3{
+    display:none;
+    overflow: hidden;
+}
+.big-image3 img{
+    width:100%;
+    border-radius: 8px;
+}
+.big-image4{
+    display:none;
+    overflow: hidden;
+}
+.big-image4 img{
+    
     width:100%;
     border-radius: 8px;
 }
@@ -72,10 +97,10 @@ li a{
 
 
 }
-small{
+.small1, .small2, .small3, .small4{
     width:25%;
 }
-.small img{
+.small1 img, .small2 img,.small3 img,.small4 img{
     border-radius: 5px;
     width:95%;
 
